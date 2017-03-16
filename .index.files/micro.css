@@ -1,0 +1,100 @@
+.flowLeft {			float: left; }
+.flowRight {		float: right; }
+.flowClear {		clear: both; }
+
+.alignLeft { text-align: left; }
+.alignCenter { text-align: center; }
+.alignRight { text-align: right; }
+
+.vAlignTop { vertical-align: top; }
+.vAlignMid { vertical-align: middle; }
+span.vAlignCalibrator {
+	height: 100%;
+	vertical-align: middle;
+	width: 1px;
+	display: inline-block;
+}
+
+.verticalSpace {
+	margin: 0 !important;
+	padding: 1em 0 0 0 !important;
+	border: 0 !important;
+	height: 0 !important;
+}
+.verticalAntiSpace {
+	margin: -1em 0 0 0 !important;
+	padding: 0 !important;
+	height: 0 !important;
+	border: 0 !important;
+}
+
+.textIndent {		text-indent: 0.707em; }
+
+.size01 { font-size: 0.1em; }
+.size02 { font-size: 0.2em; }
+.size03 { font-size: 0.3em; }
+.size04 { font-size: 0.4em; }
+.size05 { font-size: 0.5em; }
+.size06 { font-size: 0.6em; }
+.size07 { font-size: 0.7em; }
+.size08 { font-size: 0.8em; }
+.size09 { font-size: 0.9em; }
+.size10 { font-size: 1.0em; }
+.size11 { font-size: 1.1em; }
+.size12 { font-size: 1.2em; }
+.size13 { font-size: 1.3em; }
+.size14 { font-size: 1.4em; }
+.size15 { font-size: 1.5em; }
+.size16 { font-size: 1.6em; }
+.size17 { font-size: 1.7em; }
+.size18 { font-size: 1.8em; }
+.size19 { font-size: 1.9em; }
+.size20 { font-size: 2.0em; }
+.size21 { font-size: 2.1em; }
+.size22 { font-size: 2.2em; }
+.size23 { font-size: 2.3em; }
+.size24 { font-size: 2.4em; }
+.size25 { font-size: 2.5em; }
+.size26 { font-size: 2.6em; }
+.size27 { font-size: 2.7em; }
+.size28 { font-size: 2.8em; }
+.size29 { font-size: 2.9em; }
+.size30 { font-size: 3.0em; }
+
+.writeItalic { font-style: italic; }
+.writeBold { font-weight: bold; }
+.writeCaps { font-variant: small-caps; }
+.underline { text-decoration: underline; }
+
+.fontSans { font-family: "arial", sans-serif; }
+.fontFine { font-family: "palatino linotype"; }
+.fontMono { font-family: monospace; }
+.fontSerif { font-family: serif; }
+
+pre,
+ul,
+ol {
+	margin: 0;
+}
+
+.formFlow {			display: inline; }
+.formBlock {		display: inline-block; }
+.formLine {			display: block; }
+.formTable {
+	display: table;
+	box-sizing: border-box;
+	}
+	.formTableRow {
+		display: table-row;
+		box-sizing: border-box;
+	}
+	.formTableCell {
+		display: table-cell;
+		vertical-align: middle;
+		box-sizing: border-box;
+}
+
+.fullSize {
+	width: 100%;
+	height: 100%;
+}

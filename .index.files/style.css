@@ -1,0 +1,78 @@
+#mainFrame {
+	display: table;
+	}
+	.nation {
+		display: table-row;
+		white-space: pre;
+		}
+		.name {
+			display: table-cell;
+			letter-spacing: -0.01em;
+			line-height: 1em;
+			font-size: 12px;
+		}
+		.metrics {
+			width: 50%;
+			display: table-cell;
+			position: relative;
+		}
+		.metrics>div {
+			position: absolute;
+		}
+		.metrics.input>div {
+			height: 1px;
+			right: 0;
+			opacity: 0.3;
+			background-color: #C05E5E;
+		}
+		.metrics.output>div {
+			left: 0;
+		}
+		.metrics ._normalized_nationmaster_localPurchasingPower {
+			top: 1px;
+		}
+		.metrics ._normalized_numbeo_localPurchasingPower {
+			top: 3px;
+		}
+		.metrics ._normalized_wikipedia_economicFreedom {
+			top: 5px;
+		}
+		.metrics ._normalized_wikipedia_humanDevelopmentIndex {
+			top: 7px;
+		}
+		.metrics ._aggregated_exponential {
+			height: 8px;
+			top: 1px;
+			background-color: #64BA64;
+}
+
+button.highlight, 
+button.sort {
+	vertical-align: middle;
+	}
+	button.highlight.active, 
+	button.sort.active {
+		font-weight: bold;
+}
+
+body._normalized_nationmaster_localPurchasingPower .metrics ._normalized_nationmaster_localPurchasingPower,
+body._normalized_numbeo_localPurchasingPower .metrics ._normalized_numbeo_localPurchasingPower,
+body._normalized_wikipedia_economicFreedom .metrics ._normalized_wikipedia_economicFreedom,
+body._normalized_wikipedia_humanDevelopmentIndex .metrics ._normalized_wikipedia_humanDevelopmentIndex {
+	height: 2px;
+	opacity: 1;
+}
+
+textarea#csv {
+	width: 100%;
+	margin: auto;
+	display: block;
+	box-sizing: border-box;
+	height: 400px;
+	background-color: #EEEEEE;
+	white-space: pre;
+}
+
+.nation:hover {
+	background-color: #FFFF77;
+}

@@ -1,0 +1,23 @@
+<html>
+<body>
+<script src="geoIpEconomy.js"></script>
+</body>
+<script>
+	console.log(ihde.GeoIpEconomy.min, ihde.GeoIpEconomy.max);
+	
+	var instances = [
+		new ihde.GeoIpEconomy('CH'),
+		new ihde.GeoIpEconomy('US'),
+		new ihde.GeoIpEconomy('SK'),
+		new ihde.GeoIpEconomy('CD'),
+		new ihde.GeoIpEconomy('-'),
+		new ihde.GeoIpEconomy('ewrwretwert')
+	];
+	
+	for (var i=0; i<instances.length; i++) {
+		var each = instances[i];
+		console.log(each);
+		console.log(each.adapt(5));
+	}
+</script>
+</html>

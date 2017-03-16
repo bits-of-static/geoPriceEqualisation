@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+		<meta name="generator" content="Peter Fargas">
+		<meta name="author" content="Peter Fargas">
+		<meta name="robots" content="index">
+		<meta name="keywords" content="grey literature, ">
+		<meta name="description" content="">
+		<meta name="referrer" content="always">
+		
+		<meta property="og:title" content="Whitepaper: Geo-Equalization of Prices">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://informatik-handwerk.de/greyLiterature/whitepaper/geoEqualizationOfPrices/index.html">
+		<!-- meta property="og:image" content="https://informatik-handwerk.de/img/embedView.jpg" />
+		<meta property="og:image:secure_url" content="https://informatik-handwerk.de/img/embedView.jpg" / -->
+		
+		<!-- link rel="home" type="application/atom+xml" href="/digest/atom" title="Rss feed" />
+		<link rel="home" type="application/rss+xml" href="/digest/rss" title="Atom feed" / -->
+		
+		<title>Whitepaper: Geo-Equalization of Prices</title>
+		
+		<link rel="stylesheet" type="text/css" href=".index.files/micro.css">
+		<link rel="stylesheet" type="text/css" href=".index.files/greyLiterature.css">
+		
+			<link rel="stylesheet" type="text/css" href=".index.files/style.css">
+		
+		<style type="text/css">
+			
+		</style>
+		
+			<script type="text/javascript" src="rawData.js"></script>
+			<script type="text/javascript" src="rawDataNormalize.js"></script>
+			<script type="text/javascript" src=".index.files/jquery-1.11.1.min.js"></script>
+			<script type="text/javascript" src=".index.files/presentation.js"></script>
+		
+	</head>
+	<body>
+		<!--
+		<div style="page-break-after:always;"></div>
+		-->
+		
+		<div id="creaAuthor" class="flowLeft writeItalic"><a href="https://informatik-handwerk.de/en/">
+			Peter Fargas
+			<br>
+			Independent Research &amp; Prototypisation
+			<br>
+			https://informatik-handwerk.de
+			<br>
+			Leipzig, Germany
+		</a></div>
+		<div class="flowRight writeItalic">
+			Release date: March 2017
+			<br>
+			Last update: 
+			<div class="verticalSpace"></div>
+			<span class="notAuthoritative"><a href="https://informatik-handwerk.de/greyLiterature/whitepaper/geoEqualizationOfPrices/index.html">Link to authoritative version</a></span>
+		</div>
+		<div class="flowClear"></div>
+		
+		<h1>Geo-Equalization of Prices</h1>
+		
+		
+		
+		<div id="content">
+			<div>
+	<div>
+		<p class="writeItalic"> 
+			People living in different countries have very different chances, economical power and living standards differ. To honour differencies of my customers, I resolve <span class="alignPre">Geo-Ip</span> and adjust prices accordingly.
+		</p>
+		<p>
+			I combined statistical data in 2015:
+			
+			</p><ul><li>
+				<span class="writeBold">local purchasing power</span>:
+				<a href="https://www.numbeo.com/cost-of-living/rankings_by_country.jsp">Numbeo</a>, 
+				<a href="http://www.nationmaster.com/country-info/stats/Cost-of-living/Local-purchasing-power">Nationmaster</a>
+			</li><li>
+				<span class="writeBold">economic freedom</span>:
+				<a href="https://en.wikipedia.org/wiki/List_of_countries_by_economic_freedom">Wikipedia</a>
+			</li><li>
+				<span class="writeBold">inequality adjusted human development index</span>:
+				<a href="https://en.wikipedia.org/wiki/List_of_countries_by_inequality-adjusted_HDI">Wikipedia</a>
+			</li><li>
+				The <span class="alignPre">Geo-Ip</span> resolving is provided by <a href="https://www.maxmind.com/">MaxMind</a>.
+			</li></ul>
+		<p></p>
+		<p class="writeItalic"> 
+			In such way, people all around the world get a comparable chance for using the tools and information they like.
+		</p>
+	</div>
+</div>
+
+<div>
+	<h2>Methodology</h2>
+	<div>
+		<p>
+		I normalize each of the four metrics, average them (there are two "local purchasing power" data-sets) and shape the curve:
+		</p><p>
+		<code>0.2* Math.exp(3.4* average)</code>
+		</p><p>
+		Poor countries gets a multiplier of 0.5 with Afghanistan at 0.372, well-doing ones around 3.5 with maximum of 5.199 in Switzerland.
+		</p>
+	</div>
+</div>
+
+<div>
+	<h2>Download</h2>
+	<div>
+		<p>
+		Here are the data I extracted in 2015 from various sources and aggregated into one multiplication factor to normalize prices. I estimated where data were missing – such spots are kept visible in raw data sources.
+		</p><p>
+		<span class="isAuthoritative"><a href="http://localhost:8/greyLiterature/whitepaper/geoEqualizationOfPrices/geoEqualizationOfPrices.zip">Download: raw data(json-like) &amp; source-code(js/php)</a></span>
+		<br>
+		CSV export: is available for copy-paste at the bottom.
+		</p>
+	</div>
+</div>
+
+<div>
+	<h2>Programatical API</h2>
+	<div>
+		<p>
+		Both PHP and JavaScript share the same API - you provide a two-character <a href="http://en.wikipedia.org/wiki/ISO_3166-1">ISO 3166-1</a> country code and the price to <code class="writeBold">adapt()</code>. Or <code class="writeBold">readapt()</code>, in which case you supply two country codes - price origin and price destination.
+		</p><p>
+		Me myself am using services from MaxMind to obtain GeoIp from my customers. Their API is simple and they provide both, online resolver and databases to download. I use their free database as fallback in case online-resolver fails.
+		</p><p>
+		If you want to keep it all client-side, free database queries are available from <a href="https://freegeoip.net/">freegeoip.net</a> or <a href="https://geoip.nekudo.com/">geoip.nekudo.com</a>. I really like embedding on client side, because it respects privacy settings of your visitors. Just place the "no information" (estimated Internet average) value maybe a bit higher than I did.
+		</p>
+	</div>
+</div>
+
+<div>
+	<h2>Visual Data</h2>
+	<div>
+		<p>
+			Use the highlight/sort buttons to play with the data.
+			<br>
+			Simpler than scanning or reading the table, you might prefer to use the integrated search function of browsers (<code>ctrl+F</code>).
+		</p>
+		
+		<p>
+			<button class="highlight _normalized_nationmaster_localPurchasingPower">highlight<br>local purchasing power<br>nationmaster</button>
+			<button class="highlight _normalized_numbeo_localPurchasingPower">highlight<br>local purchasing power<br>numbeo</button>
+			<button class="highlight _normalized_wikipedia_economicFreedom">highlight<br>economic freedom<br>wikipedia</button>
+			<button class="highlight _normalized_wikipedia_humanDevelopmentIndex">highlight<br>human development index<br>wikipedia</button>
+		</p>
+		<p>
+			<button class="sort _normalized_nationmaster_localPurchasingPower">sort<br>local purchasing power<br>nationmaster</button>
+			<button class="sort _normalized_numbeo_localPurchasingPower">sort<br>local purchasing power<br>numbeo</button>
+			<button class="sort _normalized_wikipedia_economicFreedom">sort<br>economic freedom<br>wikipedia</button>
+			<button class="sort _normalized_wikipedia_humanDevelopmentIndex">sort<br>human development index<br>wikipedia</button>
+			<button class="sort _aggregated_exponential">sort<br>unified index</button>
+		</p>
+		
+		<div id="mainFrame"></div>
+		
+		<p>
+			<button class="highlight _normalized_nationmaster_localPurchasingPower">highlight<br>local purchasing power<br>nationmaster</button>
+			<button class="highlight _normalized_numbeo_localPurchasingPower">highlight<br>local purchasing power<br>numbeo</button>
+			<button class="highlight _normalized_wikipedia_economicFreedom">highlight<br>economic freedom<br>wikipedia</button>
+			<button class="highlight _normalized_wikipedia_humanDevelopmentIndex">highlight<br>human development index<br>wikipedia</button>
+		</p>
+		<p>
+			<button class="sort _normalized_nationmaster_localPurchasingPower">sort<br>local purchasing power<br>nationmaster</button>
+			<button class="sort _normalized_numbeo_localPurchasingPower">sort<br>local purchasing power<br>numbeo</button>
+			<button class="sort _normalized_wikipedia_economicFreedom">sort<br>economic freedom<br>wikipedia</button>
+			<button class="sort _normalized_wikipedia_humanDevelopmentIndex">sort<br>human development index<br>wikipedia</button>
+			<button class="sort _aggregated_exponential">sort<br>unified index</button>
+		</p>
+	</div>
+</div>
+
+<div>
+	<h2>CSV Data</h2>
+	<div>
+		<p>
+			<textarea id="csv"></textarea>
+		</p>
+	</div>
+</div>
+
+		</div>
+		
+		<script>
+			var bodyClass = document.body.className.replace('authoritative', '').trim();
+			
+			if (location.host == 'informatik-handwerk.de'
+			|| location.host == 'informatikhandwerk.de' 
+			{% if site.is_development %}|| location.host == 'localhost:8'{% endif %}
+			) {
+				bodyClass += " authoritative";
+			}
+			
+			document.body.className = bodyClass;
+		</script>
+		
+		<script>jQuery(document).ready(function(){
+			var toc = jQuery('#toc');
+			
+			var tocItems = jQuery('.toc');
+			if (tocItems.length) {
+				tocItems
+					.detach()
+					.appendTo(toc)
+					;
+				toc.show();
+				
+			} else {
+				toc.remove();
+			}
+		});</script>
+		
+		
+	
+</body></html>

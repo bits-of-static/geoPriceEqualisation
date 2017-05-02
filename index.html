@@ -108,10 +108,10 @@
 	<h2>Download</h2>
 	<div>
 		<p>
-		Here are the data I extracted in 2015 from various sources and aggregated into one multiplication factor to normalize prices. I estimated where data were missing – such spots are kept visible in raw data sources.
+		Here are the data I extracted in 2015 from various sources and aggregated into one multiplication factor to normalize prices. I estimated where data were missing &#8211; such spots are kept visible in raw data sources.
 		</p><p>
 		<span class="isAuthoritative"><a href="http://localhost:8/greyLiterature/whitepaper/geoEqualizationOfPrices/geoEqualizationOfPrices.zip">Download: raw data(json-like) &amp; source-code(js/php)</a></span>
-		<br>
+		<br />
 		CSV export: is available for copy-paste at the bottom.
 		</p>
 	</div>
@@ -134,40 +134,37 @@
 	<h2>Visual Data</h2>
 	<div>
 		<p>
-			Use the highlight/sort buttons to play with the data.
-			<br>
 			Simpler than scanning or reading the table, you might prefer to use the integrated search function of browsers (<code>ctrl+F</code>).
 		</p>
 		
-		<p>
-			<button class="highlight _normalized_nationmaster_localPurchasingPower">highlight<br>local purchasing power<br>nationmaster</button>
-			<button class="highlight _normalized_numbeo_localPurchasingPower">highlight<br>local purchasing power<br>numbeo</button>
-			<button class="highlight _normalized_wikipedia_economicFreedom">highlight<br>economic freedom<br>wikipedia</button>
-			<button class="highlight _normalized_wikipedia_humanDevelopmentIndex">highlight<br>human development index<br>wikipedia</button>
-		</p>
-		<p>
-			<button class="sort _normalized_nationmaster_localPurchasingPower">sort<br>local purchasing power<br>nationmaster</button>
-			<button class="sort _normalized_numbeo_localPurchasingPower">sort<br>local purchasing power<br>numbeo</button>
-			<button class="sort _normalized_wikipedia_economicFreedom">sort<br>economic freedom<br>wikipedia</button>
-			<button class="sort _normalized_wikipedia_humanDevelopmentIndex">sort<br>human development index<br>wikipedia</button>
-			<button class="sort _aggregated_exponential">sort<br>unified index</button>
-		</p>
+		<div id="options">
+			<p>
+				<span class="writeBold">Highlight: </span>
+				<br />
+				<input type="checkbox" class="highlight _normalized_nationmaster_localPurchasingPower">local purchasing power (nationmaster)</button>
+				<br />
+				<input type="checkbox" class="highlight _normalized_numbeo_localPurchasingPower">local purchasing power (numbeo)</button>
+				<br />
+				<input type="checkbox" class="highlight _normalized_wikipedia_economicFreedom">economic freedom (wikipedia)</button>
+				<br />
+				<input type="checkbox" class="highlight _normalized_wikipedia_humanDevelopmentIndex">human development index (wikipedia)</button>
+			</p>
+			<p>
+				<span class="writeBold">Sort by: </span>
+				<select class="sort">
+					<option value="_lexicographical_name">alphabetically</option>
+					<option value="_lexicographical_continent">by continent</option>
+					<option value="_aggregated_exponential">&gt; unified geo-eq index &lt;</option>
+					<option value="_normalized_nationmaster_localPurchasingPower">local purchasing power (nationmaster)</option>
+					<option value="_normalized_numbeo_localPurchasingPower">local purchasing power (numbeo)</option>
+					<option value="_normalized_wikipedia_economicFreedom">economic freedom (wikipedia)</option>
+					<option value="_normalized_wikipedia_humanDevelopmentIndex">human development index (wikipedia)</option>
+				</select>
+			</p>
+		</div>
 		
 		<div id="mainFrame"></div>
 		
-		<p>
-			<button class="highlight _normalized_nationmaster_localPurchasingPower">highlight<br>local purchasing power<br>nationmaster</button>
-			<button class="highlight _normalized_numbeo_localPurchasingPower">highlight<br>local purchasing power<br>numbeo</button>
-			<button class="highlight _normalized_wikipedia_economicFreedom">highlight<br>economic freedom<br>wikipedia</button>
-			<button class="highlight _normalized_wikipedia_humanDevelopmentIndex">highlight<br>human development index<br>wikipedia</button>
-		</p>
-		<p>
-			<button class="sort _normalized_nationmaster_localPurchasingPower">sort<br>local purchasing power<br>nationmaster</button>
-			<button class="sort _normalized_numbeo_localPurchasingPower">sort<br>local purchasing power<br>numbeo</button>
-			<button class="sort _normalized_wikipedia_economicFreedom">sort<br>economic freedom<br>wikipedia</button>
-			<button class="sort _normalized_wikipedia_humanDevelopmentIndex">sort<br>human development index<br>wikipedia</button>
-			<button class="sort _aggregated_exponential">sort<br>unified index</button>
-		</p>
 	</div>
 </div>
 
@@ -187,7 +184,6 @@
 			
 			if (location.host == 'informatik-handwerk.de'
 			|| location.host == 'informatikhandwerk.de' 
-			{% if site.is_development %}|| location.host == 'localhost:8'{% endif %}
 			) {
 				bodyClass += " authoritative";
 			}

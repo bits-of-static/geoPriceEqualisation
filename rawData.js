@@ -5,10 +5,11 @@ PURCHASEABLE_nationalMetrics.data =
 {
 	'-': {
 		"code": "-",
-		"isoName": "generic Internet estimate",
-		"name": "generic Internet estimate",
+		"isoName": "estimated average Internet-user",
+		"name": "estimated average Internet-user",
 		"lat": "0",
 		"lon": "0",
+		"continent": "",
 		"metrics": {
 			"numbeo_localPurchasingPower": 90, //null,
 			"nationmaster_localPurchasingPower": 82, //null,
@@ -23,6 +24,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Afghanistan",
 		"lat": "33",
 		"lon": "65",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 11.2,
@@ -37,6 +39,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Aland Islands",
 		"lat": "60.21",
 		"lon": "20.16",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -51,6 +54,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Albania",
 		"lat": "41",
 		"lon": "20",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 34.79,
 			"nationmaster_localPurchasingPower": 31.96,
@@ -65,6 +69,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Algeria",
 		"lat": "28",
 		"lon": "3",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 36.94,
 			"nationmaster_localPurchasingPower": 31.99,
@@ -79,6 +84,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "American Samoa",
 		"lat": "-14.2",
 		"lon": "-170",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -93,6 +99,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Andorra",
 		"lat": "42.3",
 		"lon": "1.3",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -107,6 +114,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Angola",
 		"lat": "-12.3",
 		"lon": "18.3",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -121,6 +129,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Anguilla",
 		"lat": "18.15",
 		"lon": "-63.1",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -135,6 +144,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Antarctica",
 		"lat": "-90",
 		"lon": "0",
+		"continent": "Antarctica",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -149,6 +159,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Antigua and Barbuda",
 		"lat": "17.03",
 		"lon": "-61.48",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -163,6 +174,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Argentina",
 		"lat": "-34",
 		"lon": "-64",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 59.38,
 			"nationmaster_localPurchasingPower": 55.27,
@@ -177,6 +189,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Armenia",
 		"lat": "40",
 		"lon": "45",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 27.74,
 			"nationmaster_localPurchasingPower": 23.08,
@@ -191,6 +204,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Aruba",
 		"lat": "12.3",
 		"lon": "-69.58",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -205,6 +219,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Australia",
 		"lat": "-27",
 		"lon": "133",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": 110.39,
 			"nationmaster_localPurchasingPower": 101.6,
@@ -219,6 +234,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Austria",
 		"lat": "47.2",
 		"lon": "13.2",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 104.55,
 			"nationmaster_localPurchasingPower": 90.03,
@@ -233,6 +249,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Azerbaijan",
 		"lat": "40.3",
 		"lon": "47.3",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 29.21,
 			"nationmaster_localPurchasingPower": 23.85,
@@ -247,6 +264,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Bahamas",
 		"lat": "24.15",
 		"lon": "-76",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 90.81,
@@ -261,6 +279,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Bahrain",
 		"lat": "26",
 		"lon": "50.33",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 59.69,
 			"nationmaster_localPurchasingPower": 56.04,
@@ -275,6 +294,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Bangladesh",
 		"lat": "24",
 		"lon": "90",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 33.43,
 			"nationmaster_localPurchasingPower": 31.95,
@@ -289,6 +309,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Barbados",
 		"lat": "13.1",
 		"lon": "-59.32",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 61.67,
@@ -303,6 +324,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Belarus",
 		"lat": "53",
 		"lon": "28",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 35.82,
 			"nationmaster_localPurchasingPower": 33.15,
@@ -317,6 +339,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Belgium",
 		"lat": "50.5",
 		"lon": "4",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 86.16,
 			"nationmaster_localPurchasingPower": 83.65,
@@ -331,6 +354,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Belize",
 		"lat": "17.15",
 		"lon": "-88.45",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 119.98,
 			"nationmaster_localPurchasingPower": null,
@@ -345,6 +369,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Benin",
 		"lat": "9.3",
 		"lon": "2.15",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -359,6 +384,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Bermuda",
 		"lat": "32.2",
 		"lon": "-64.45",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -373,6 +399,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Bhutan",
 		"lat": "27.3",
 		"lon": "90.3",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -387,6 +414,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Bolivia",
 		"lat": "-17",
 		"lon": "-65",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 41.1,
 			"nationmaster_localPurchasingPower": 45.66,
@@ -401,6 +429,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Bosnia and Herzegovina",
 		"lat": "44",
 		"lon": "18",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 44.74,
 			"nationmaster_localPurchasingPower": 43.1,
@@ -415,6 +444,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Botswana",
 		"lat": "-22",
 		"lon": "24",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 38.67,
@@ -429,6 +459,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Bouvet Island",
 		"lat": "-54.26",
 		"lon": "3.24",
+		"continent": "Antarctica",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -443,6 +474,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Brazil",
 		"lat": "-10",
 		"lon": "-55",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 41.16,
 			"nationmaster_localPurchasingPower": 41.19,
@@ -457,6 +489,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "British Indian Ocean Territory",
 		"lat": "-6",
 		"lon": "71.3",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -471,6 +504,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Brunei Darussalam",
 		"lat": "4.3",
 		"lon": "114.4",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 100.2,
@@ -485,6 +519,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Bulgaria",
 		"lat": "43",
 		"lon": "25",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 39.88,
 			"nationmaster_localPurchasingPower": 36.55,
@@ -499,6 +534,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Burkina Faso",
 		"lat": "13",
 		"lon": "-2",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -513,6 +549,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Burundi",
 		"lat": "-3.3",
 		"lon": "30",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 1.05,
@@ -527,6 +564,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Cambodia",
 		"lat": "13",
 		"lon": "105",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 11.93,
 			"nationmaster_localPurchasingPower": 16.11,
@@ -541,6 +579,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Cameroon",
 		"lat": "6",
 		"lon": "12",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 21.41,
@@ -555,6 +594,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Canada",
 		"lat": "60",
 		"lon": "-95",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 105.07,
 			"nationmaster_localPurchasingPower": 101.96,
@@ -569,6 +609,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Cape Verde",
 		"lat": "16",
 		"lon": "-24",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -583,6 +624,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Cayman Islands",
 		"lat": "19.3",
 		"lon": "-80.3",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -597,6 +639,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Central African Republic",
 		"lat": "7",
 		"lon": "21",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -611,6 +654,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Chad",
 		"lat": "15",
 		"lon": "19",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -625,6 +669,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Chile",
 		"lat": "-30",
 		"lon": "-71",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 55.11,
 			"nationmaster_localPurchasingPower": 56.48,
@@ -639,6 +684,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "China",
 		"lat": "35",
 		"lon": "105",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 48.64,
 			"nationmaster_localPurchasingPower": 42.36,
@@ -653,6 +699,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Christmas Island",
 		"lat": "-10.3",
 		"lon": "105.4",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -667,6 +714,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Cocos (Keeling) Islands",
 		"lat": "-12.3",
 		"lon": "96.5",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -681,6 +729,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Colombia",
 		"lat": "4",
 		"lon": "-72",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 36.08,
 			"nationmaster_localPurchasingPower": 33.83,
@@ -695,6 +744,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Comoros",
 		"lat": "-12.1",
 		"lon": "44.15",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -709,6 +759,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Congo",
 		"lat": "0",
 		"lon": "25",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -723,6 +774,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Democratic Republic of Congo",
 		"lat": "-4.04",
 		"lon": "30.75",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -737,6 +789,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Cook Islands",
 		"lat": "-21.14",
 		"lon": "-159.46",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -751,6 +804,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Costa Rica",
 		"lat": "10",
 		"lon": "-84",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 48.14,
 			"nationmaster_localPurchasingPower": 41.33,
@@ -765,6 +819,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Ivory Coast",
 		"lat": "7.64",
 		"lon": "-4.93",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -779,6 +834,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Croatia (Hrvatska)",
 		"lat": "45.1",
 		"lon": "15.3",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 50.47,
 			"nationmaster_localPurchasingPower": null,
@@ -793,6 +849,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Cuba",
 		"lat": "21.3",
 		"lon": "-80",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -807,6 +864,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Cyprus",
 		"lat": "35",
 		"lon": "33",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 71.05,
 			"nationmaster_localPurchasingPower": 65.28,
@@ -821,6 +879,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Czech Republic",
 		"lat": "49.45",
 		"lon": "15.3",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 68.07,
 			"nationmaster_localPurchasingPower": 60.64,
@@ -835,6 +894,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Denmark",
 		"lat": "56",
 		"lon": "10",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 105.7,
 			"nationmaster_localPurchasingPower": 92.77,
@@ -849,6 +909,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Djibouti",
 		"lat": "11.3",
 		"lon": "43",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -863,6 +924,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Dominica",
 		"lat": "15.25",
 		"lon": "-61.2",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -877,6 +939,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Dominican Republic",
 		"lat": "19",
 		"lon": "-70.4",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 28.2,
 			"nationmaster_localPurchasingPower": 32.1,
@@ -891,6 +954,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Ecuador",
 		"lat": "-2",
 		"lon": "-77.3",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 28,
 			"nationmaster_localPurchasingPower": 27.34,
@@ -905,6 +969,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Egypt",
 		"lat": "27",
 		"lon": "30",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 25.84,
 			"nationmaster_localPurchasingPower": 24.76,
@@ -919,6 +984,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "El Salvador",
 		"lat": "13.5",
 		"lon": "-88.55",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 28.67,
 			"nationmaster_localPurchasingPower": 25.38,
@@ -933,6 +999,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Equatorial Guinea",
 		"lat": "2",
 		"lon": "10",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -947,6 +1014,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Eritrea",
 		"lat": "15",
 		"lon": "39",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -961,6 +1029,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Estonia",
 		"lat": "59",
 		"lon": "26",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 51.44,
 			"nationmaster_localPurchasingPower": 46.77,
@@ -975,6 +1044,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Ethiopia",
 		"lat": "8",
 		"lon": "38",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 15.85,
 			"nationmaster_localPurchasingPower": 14.76,
@@ -989,6 +1059,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Falkland Islands (Malvinas)",
 		"lat": "-51.45",
 		"lon": "-59",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1003,6 +1074,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Faroe Islands",
 		"lat": "62",
 		"lon": "-7",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1017,6 +1089,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Fiji",
 		"lat": "-18",
 		"lon": "175",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 35.75,
@@ -1031,6 +1104,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Finland",
 		"lat": "64",
 		"lon": "26",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 101.17,
 			"nationmaster_localPurchasingPower": 93.94,
@@ -1045,6 +1119,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "France",
 		"lat": "46",
 		"lon": "2",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 92.62,
 			"nationmaster_localPurchasingPower": 88.95,
@@ -1059,6 +1134,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "French Guiana",
 		"lat": "4",
 		"lon": "-53",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1073,6 +1149,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "French Polynesia",
 		"lat": "-15",
 		"lon": "-140",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1087,6 +1164,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "French Southern Territories",
 		"lat": "-43",
 		"lon": "67",
+		"continent": "Antarctica",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1101,6 +1179,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Gabon",
 		"lat": "-1",
 		"lon": "11.45",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 61.01,
@@ -1115,6 +1194,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Gambia",
 		"lat": "13.28",
 		"lon": "-16.34",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1129,6 +1209,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Georgia",
 		"lat": "42",
 		"lon": "43.3",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 26.21,
 			"nationmaster_localPurchasingPower": 22.7,
@@ -1143,6 +1224,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Germany",
 		"lat": "51",
 		"lon": "9",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 111.84,
 			"nationmaster_localPurchasingPower": 108.14,
@@ -1157,6 +1239,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Ghana",
 		"lat": "8",
 		"lon": "-2",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 14.17,
 			"nationmaster_localPurchasingPower": 14.95,
@@ -1171,6 +1254,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Gibraltar",
 		"lat": "36.8",
 		"lon": "-5.21",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 107.55,
@@ -1185,6 +1269,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Greece",
 		"lat": "39",
 		"lon": "22",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 51.89,
 			"nationmaster_localPurchasingPower": 43.16,
@@ -1199,6 +1284,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Greenland",
 		"lat": "72",
 		"lon": "-40",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 66.41,
@@ -1213,6 +1299,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Grenada",
 		"lat": "12.07",
 		"lon": "-61.4",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1227,6 +1314,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Guadeloupe",
 		"lat": "16.15",
 		"lon": "-61.35",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1241,6 +1329,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Guam",
 		"lat": "13.28",
 		"lon": "144.47",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 80.65,
@@ -1255,6 +1344,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Guatemala",
 		"lat": "15.3",
 		"lon": "-90.15",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 38.02,
 			"nationmaster_localPurchasingPower": 37.65,
@@ -1269,6 +1359,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Guinea",
 		"lat": "11",
 		"lon": "-10",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1283,6 +1374,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Guinea-Bissau",
 		"lat": "12",
 		"lon": "-15",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1297,6 +1389,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Guyana",
 		"lat": "5",
 		"lon": "-59",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1311,6 +1404,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Haiti",
 		"lat": "19",
 		"lon": "-72.25",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1325,6 +1419,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Heard and McDonald Islands",
 		"lat": "-53.06",
 		"lon": "72.31",
+		"continent": "Antarctica",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1339,6 +1434,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Honduras",
 		"lat": "15",
 		"lon": "-86.3",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 62.64,
 			"nationmaster_localPurchasingPower": 37.33,
@@ -1353,6 +1449,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Hong Kong",
 		"lat": "22.15",
 		"lon": "114.1",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 74.93,
 			"nationmaster_localPurchasingPower": 71,
@@ -1367,6 +1464,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Hungary",
 		"lat": "47",
 		"lon": "20",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 46.85,
 			"nationmaster_localPurchasingPower": 43.47,
@@ -1381,6 +1479,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Iceland",
 		"lat": "65",
 		"lon": "-18",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 70.84,
 			"nationmaster_localPurchasingPower": 60.84,
@@ -1395,6 +1494,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "India",
 		"lat": "20",
 		"lon": "77",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 65.79,
 			"nationmaster_localPurchasingPower": 60.32,
@@ -1409,6 +1509,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Indonesia",
 		"lat": "-5",
 		"lon": "120",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 26.01,
 			"nationmaster_localPurchasingPower": 25.22,
@@ -1423,6 +1524,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Iran",
 		"lat": "32",
 		"lon": "53",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 30.65,
 			"nationmaster_localPurchasingPower": 29.12,
@@ -1437,6 +1539,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Iraq",
 		"lat": "33",
 		"lon": "44",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 41.2,
 			"nationmaster_localPurchasingPower": 36.65,
@@ -1451,6 +1554,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Ireland",
 		"lat": "53",
 		"lon": "-8",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 95.72,
 			"nationmaster_localPurchasingPower": 90.81,
@@ -1465,6 +1569,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Israel",
 		"lat": "31.3",
 		"lon": "34.45",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 88.18,
 			"nationmaster_localPurchasingPower": 66.92,
@@ -1479,6 +1584,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Italy",
 		"lat": "42.5",
 		"lon": "12.5",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 79.35,
 			"nationmaster_localPurchasingPower": 73.81,
@@ -1493,6 +1599,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Jamaica",
 		"lat": "18.15",
 		"lon": "-77.3",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 43.53,
 			"nationmaster_localPurchasingPower": 52.62,
@@ -1507,6 +1614,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Japan",
 		"lat": "36",
 		"lon": "138",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 98.21,
 			"nationmaster_localPurchasingPower": 93.22,
@@ -1521,6 +1629,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Jordan",
 		"lat": "31",
 		"lon": "36",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 38.67,
 			"nationmaster_localPurchasingPower": 36.81,
@@ -1535,6 +1644,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Kazakhstan",
 		"lat": "48",
 		"lon": "68",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 43.48,
 			"nationmaster_localPurchasingPower": 35.3,
@@ -1549,6 +1659,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Kenya",
 		"lat": "1",
 		"lon": "38",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 28.74,
 			"nationmaster_localPurchasingPower": 29.73,
@@ -1563,6 +1674,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Kiribati",
 		"lat": "1.25",
 		"lon": "173",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1577,6 +1689,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Korea (North)",
 		"lat": "40",
 		"lon": "127",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1591,6 +1704,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Korea (South)",
 		"lat": "37",
 		"lon": "127.3",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 85.83,
 			"nationmaster_localPurchasingPower": 78.46,
@@ -1605,6 +1719,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Kuwait",
 		"lat": "29.3",
 		"lon": "45.45",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 85.7,
 			"nationmaster_localPurchasingPower": 89.12,
@@ -1619,6 +1734,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Kyrgyzstan",
 		"lat": "41",
 		"lon": "75",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1633,6 +1749,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Laos",
 		"lat": "18",
 		"lon": "105",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 17.97,
@@ -1647,6 +1764,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Latvia",
 		"lat": "57",
 		"lon": "25",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 44.39,
 			"nationmaster_localPurchasingPower": 38.69,
@@ -1661,6 +1779,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Lebanon",
 		"lat": "33.5",
 		"lon": "35.5",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 50.17,
 			"nationmaster_localPurchasingPower": 40.25,
@@ -1675,6 +1794,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Lesotho",
 		"lat": "-29.3",
 		"lon": "28.3",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1689,6 +1809,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Liberia",
 		"lat": "6.3",
 		"lon": "-9.3",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1703,6 +1824,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Libya",
 		"lat": "25",
 		"lon": "17",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 44.29,
 			"nationmaster_localPurchasingPower": 41.33,
@@ -1717,6 +1839,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Liechtenstein",
 		"lat": "47.16",
 		"lon": "9.32",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 125, //null,
 			"nationmaster_localPurchasingPower": 112, //null,
@@ -1731,6 +1854,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Lithuania",
 		"lat": "56",
 		"lon": "24",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 46.86,
 			"nationmaster_localPurchasingPower": 41.19,
@@ -1745,6 +1869,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Luxembourg",
 		"lat": "49.45",
 		"lon": "6.1",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 114.7,
 			"nationmaster_localPurchasingPower": 115.06,
@@ -1759,6 +1884,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Macao",
 		"lat": "22.1",
 		"lon": "113.33",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1773,6 +1899,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Macedonia",
 		"lat": "41.5",
 		"lon": "22",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 35.48,
 			"nationmaster_localPurchasingPower": 32.57,
@@ -1787,6 +1914,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Madagascar",
 		"lat": "-20",
 		"lon": "47",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1801,6 +1929,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Malawi",
 		"lat": "-13.3",
 		"lon": "34",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1815,6 +1944,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Malaysia",
 		"lat": "2.3",
 		"lon": "112.3",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 73.54,
 			"nationmaster_localPurchasingPower": 67.89,
@@ -1829,6 +1959,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Maldives",
 		"lat": "3.15",
 		"lon": "73",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1843,6 +1974,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Mali",
 		"lat": "17",
 		"lon": "-4",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1857,6 +1989,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Malta",
 		"lat": "35.5",
 		"lon": "14.35",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 72.45,
 			"nationmaster_localPurchasingPower": 70,
@@ -1871,6 +2004,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Marshall Islands",
 		"lat": "9",
 		"lon": "168",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1885,6 +2019,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Martinique",
 		"lat": "14.4",
 		"lon": "-61",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1899,6 +2034,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Mauritania",
 		"lat": "20",
 		"lon": "-12",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1913,6 +2049,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Mauritius",
 		"lat": "-20.17",
 		"lon": "57.33",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 60.1,
 			"nationmaster_localPurchasingPower": 69.06,
@@ -1927,6 +2064,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Mayotte",
 		"lat": "-12.5",
 		"lon": "45.1",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1941,6 +2079,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Mexico",
 		"lat": "23",
 		"lon": "-102",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 59.51,
 			"nationmaster_localPurchasingPower": 55.76,
@@ -1955,6 +2094,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Micronesia",
 		"lat": "6.55",
 		"lon": "158.15",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -1969,6 +2109,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Moldova",
 		"lat": "47",
 		"lon": "29",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 23.7,
 			"nationmaster_localPurchasingPower": 21.93,
@@ -1983,6 +2124,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Monaco",
 		"lat": "43.44",
 		"lon": "7.24",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 125, //null,
 			"nationmaster_localPurchasingPower": 100, //43.12,
@@ -1997,6 +2139,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Mongolia",
 		"lat": "46",
 		"lon": "105",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 24.78,
@@ -2011,6 +2154,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Montenegro",
 		"lat": "42.74",
 		"lon": "19.31",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 40.24,
 			"nationmaster_localPurchasingPower": 38.07,
@@ -2025,6 +2169,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Montserrat",
 		"lat": "16.45",
 		"lon": "-62.12",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2039,6 +2184,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Morocco",
 		"lat": "32",
 		"lon": "-5",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 35.49,
 			"nationmaster_localPurchasingPower": 31.13,
@@ -2053,6 +2199,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Mozambique",
 		"lat": "-18.15",
 		"lon": "35",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 41.2,
 			"nationmaster_localPurchasingPower": null,
@@ -2067,6 +2214,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Burma (Myanmar)",
 		"lat": "22",
 		"lon": "98",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 21.18,
 			"nationmaster_localPurchasingPower": 16.43,
@@ -2081,6 +2229,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Namibia",
 		"lat": "-22",
 		"lon": "17",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 42.86,
 			"nationmaster_localPurchasingPower": 33.9,
@@ -2095,6 +2244,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Nauru",
 		"lat": "-0.32",
 		"lon": "166.55",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2109,6 +2259,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Nepal",
 		"lat": "28",
 		"lon": "84",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 21.33,
 			"nationmaster_localPurchasingPower": 21.5,
@@ -2123,6 +2274,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Netherlands",
 		"lat": "52.3",
 		"lon": "5.45",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 102.02,
 			"nationmaster_localPurchasingPower": 93.87,
@@ -2137,20 +2289,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Netherlands Antilles",
 		"lat": "12.15",
 		"lon": "-68.45",
-		"metrics": {
-			"numbeo_localPurchasingPower": null,
-			"nationmaster_localPurchasingPower": null,
-			"wikipedia_economicFreedom": null,
-			"wikipedia_humanDevelopmentIndex": null
-		}
-	},
-
-	"NT": {
-		"code": "NT",
-		"isoName": "Neutral Zone",
-		"name": "Neutral Zone",
-		"lat": "0",
-		"lon": "0",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2165,6 +2304,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "New Caledonia",
 		"lat": "-21.3",
 		"lon": "165.3",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 67.17,
@@ -2179,6 +2319,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "New Zealand (Aotearoa)",
 		"lat": "-41",
 		"lon": "174",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": 90.99,
 			"nationmaster_localPurchasingPower": 82.19,
@@ -2193,6 +2334,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Nicaragua",
 		"lat": "13",
 		"lon": "-85",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 20.62,
 			"nationmaster_localPurchasingPower": 43.1,
@@ -2207,6 +2349,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Niger",
 		"lat": "16",
 		"lon": "8",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2221,6 +2364,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Nigeria",
 		"lat": "10",
 		"lon": "8",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 40.23,
 			"nationmaster_localPurchasingPower": 34.07,
@@ -2235,6 +2379,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Niue",
 		"lat": "-19.02",
 		"lon": "-169.52",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2249,6 +2394,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Norfolk Island",
 		"lat": "-29.02",
 		"lon": "167.57",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2263,6 +2409,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Northern Mariana Islands",
 		"lat": "15.12",
 		"lon": "145.45",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2277,6 +2424,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Norway",
 		"lat": "62",
 		"lon": "10",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 96.3,
 			"nationmaster_localPurchasingPower": 89.36,
@@ -2291,6 +2439,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Oman",
 		"lat": "21",
 		"lon": "57",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 106.83,
 			"nationmaster_localPurchasingPower": 110.18,
@@ -2305,6 +2454,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Pakistan",
 		"lat": "30",
 		"lon": "70",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 33.21,
 			"nationmaster_localPurchasingPower": 30.82,
@@ -2319,6 +2469,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Palau",
 		"lat": "7.3",
 		"lon": "134.3",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2333,6 +2484,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Palestinian Territory, Occupied",
 		"lat": "31.89",
 		"lon": "34.9",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 46.09,
 			"nationmaster_localPurchasingPower": null,
@@ -2347,6 +2499,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Panama",
 		"lat": "9",
 		"lon": "-80",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 43.34,
 			"nationmaster_localPurchasingPower": 41.63,
@@ -2361,6 +2514,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Papua New Guinea",
 		"lat": "-6",
 		"lon": "147",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 5.66,
@@ -2375,6 +2529,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Paraguay",
 		"lat": "-23",
 		"lon": "-58",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2389,6 +2544,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Peru",
 		"lat": "-10",
 		"lon": "-76",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 30.64,
 			"nationmaster_localPurchasingPower": 32.68,
@@ -2403,6 +2559,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Philippines",
 		"lat": "13",
 		"lon": "122",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 35.41,
 			"nationmaster_localPurchasingPower": 29.35,
@@ -2417,6 +2574,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Pitcairn",
 		"lat": "-25.04",
 		"lon": "-130.06",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2431,6 +2589,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Poland",
 		"lat": "52",
 		"lon": "20",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 63.49,
 			"nationmaster_localPurchasingPower": 56.1,
@@ -2445,6 +2604,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Portugal",
 		"lat": "39.3",
 		"lon": "-8",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 58.22,
 			"nationmaster_localPurchasingPower": 52.78,
@@ -2459,6 +2619,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Puerto Rico",
 		"lat": "18.15",
 		"lon": "-66.3",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 94.43,
 			"nationmaster_localPurchasingPower": 78.76,
@@ -2473,6 +2634,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Qatar",
 		"lat": "25.3",
 		"lon": "51.15",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 113.02,
 			"nationmaster_localPurchasingPower": 122.65,
@@ -2487,6 +2649,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Reunion",
 		"lat": "-21.06",
 		"lon": "55.36",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2501,6 +2664,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Romania",
 		"lat": "46",
 		"lon": "25",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 40.62,
 			"nationmaster_localPurchasingPower": 35.5,
@@ -2515,6 +2679,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Russia",
 		"lat": "60",
 		"lon": "100",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 38.86,
 			"nationmaster_localPurchasingPower": 35.93,
@@ -2529,6 +2694,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Rwanda",
 		"lat": "-2",
 		"lon": "30",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 31.91,
@@ -2543,6 +2709,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "St.Helena",
 		"lat": "-15.56",
 		"lon": "-5.42",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2557,6 +2724,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Saint Kitts and Nevis",
 		"lat": "17.2",
 		"lon": "-62.45",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2571,6 +2739,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Saint Lucia",
 		"lat": "13.53",
 		"lon": "-60.68",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2585,6 +2754,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "St.Pierre and Miquelon",
 		"lat": "46.5",
 		"lon": "-56.2",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2599,6 +2769,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Saint Vincent and the Grenadines",
 		"lat": "13.15",
 		"lon": "-61.12",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2613,6 +2784,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Samoa",
 		"lat": "-13.35",
 		"lon": "-172.2",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2627,6 +2799,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "San Marino",
 		"lat": "43.46",
 		"lon": "12.25",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2641,6 +2814,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Sao Tome and Principe",
 		"lat": "1",
 		"lon": "7",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2655,6 +2829,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Saudi Arabia",
 		"lat": "25",
 		"lon": "45",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 126.19,
 			"nationmaster_localPurchasingPower": 95.78,
@@ -2669,6 +2844,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Senegal",
 		"lat": "14",
 		"lon": "-14",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2683,6 +2859,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Republic of Serbia",
 		"lat": "44.02",
 		"lon": "21.01",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 39.15,
 			"nationmaster_localPurchasingPower": 35.89,
@@ -2697,6 +2874,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Serbia and Montenegro",
 		"lat": "43.57",
 		"lon": "21.41",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2711,6 +2889,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Seychelles",
 		"lat": "-4.35",
 		"lon": "55.4",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 12.24,
@@ -2725,6 +2904,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Syria",
 		"lat": "35",
 		"lon": "38",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 23.11,
 			"nationmaster_localPurchasingPower": 20.66,
@@ -2739,6 +2919,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Sierra Leone",
 		"lat": "8.3",
 		"lon": "-11.3",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2753,6 +2934,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Singapore",
 		"lat": "1.22",
 		"lon": "103.48",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 75.4,
 			"nationmaster_localPurchasingPower": 63.77,
@@ -2767,6 +2949,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Slovak Republic",
 		"lat": "48.4",
 		"lon": "19.3",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 56.05,
 			"nationmaster_localPurchasingPower": 50.55,
@@ -2781,6 +2964,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Slovenia",
 		"lat": "46.07",
 		"lon": "14.49",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 64.16,
 			"nationmaster_localPurchasingPower": 57.92,
@@ -2795,6 +2979,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Solomon Islands",
 		"lat": "-8",
 		"lon": "159",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2809,6 +2994,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Somalia",
 		"lat": "10",
 		"lon": "49",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2823,6 +3009,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "South Africa",
 		"lat": "-29",
 		"lon": "24",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 101.78,
 			"nationmaster_localPurchasingPower": 94.3,
@@ -2837,6 +3024,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "S.Georgia and S.Sandwich Isls.",
 		"lat": "-54.3",
 		"lon": "-37",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2851,6 +3039,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Spain",
 		"lat": "40",
 		"lon": "-4",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 76.71,
 			"nationmaster_localPurchasingPower": 70.59,
@@ -2865,6 +3054,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Sri Lanka",
 		"lat": "7",
 		"lon": "81",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 28.24,
 			"nationmaster_localPurchasingPower": 28.8,
@@ -2879,6 +3069,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Sudan",
 		"lat": "15",
 		"lon": "30",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2893,6 +3084,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Suriname",
 		"lat": "4",
 		"lon": "-56",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2907,6 +3099,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Svalbard and Jan Mayen Islands",
 		"lat": "78",
 		"lon": "20",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -2921,6 +3114,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Swaziland",
 		"lat": "-26.3",
 		"lon": "31.3",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 57.57,
@@ -2935,6 +3129,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Sweden",
 		"lat": "62",
 		"lon": "15",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 110.95,
 			"nationmaster_localPurchasingPower": 104.33,
@@ -2949,6 +3144,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Switzerland",
 		"lat": "47",
 		"lon": "8",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 146.51,
 			"nationmaster_localPurchasingPower": 134.41,
@@ -2963,6 +3159,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Taiwan",
 		"lat": "23.3",
 		"lon": "121",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 69.9,
 			"nationmaster_localPurchasingPower": 73.94,
@@ -2977,6 +3174,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Tajikistan",
 		"lat": "39",
 		"lon": "71",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 16.82,
@@ -2991,6 +3189,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Tanzania",
 		"lat": "-6",
 		"lon": "35",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 47.16,
 			"nationmaster_localPurchasingPower": 39.81,
@@ -3005,6 +3204,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Thailand",
 		"lat": "15",
 		"lon": "100",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 38.75,
 			"nationmaster_localPurchasingPower": 34.78,
@@ -3019,6 +3219,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "East Timor",
 		"lat": "-8.5",
 		"lon": "125.55",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -3033,6 +3234,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Togo",
 		"lat": "8",
 		"lon": "1.1",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -3047,6 +3249,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Tokelau",
 		"lat": "-9",
 		"lon": "-172",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -3061,6 +3264,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Tonga",
 		"lat": "-20",
 		"lon": "-175",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -3075,6 +3279,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Trinidad and Tobago",
 		"lat": "11",
 		"lon": "-61",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 46.98,
 			"nationmaster_localPurchasingPower": 39.72,
@@ -3089,6 +3294,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Tunisia",
 		"lat": "34",
 		"lon": "9",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 36.75,
 			"nationmaster_localPurchasingPower": 33.5,
@@ -3103,6 +3309,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Turkey",
 		"lat": "39",
 		"lon": "35",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 53.63,
 			"nationmaster_localPurchasingPower": 53.17,
@@ -3117,6 +3324,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Turkmenistan",
 		"lat": "40",
 		"lon": "60",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 25.74,
@@ -3131,6 +3339,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Turks and Caicos Islandss",
 		"lat": "21.45",
 		"lon": "-71.35",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -3145,6 +3354,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Tuvalu",
 		"lat": "-8",
 		"lon": "178",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -3159,6 +3369,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Uganda",
 		"lat": "1",
 		"lon": "32",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 16.91,
 			"nationmaster_localPurchasingPower": 23.84,
@@ -3173,6 +3384,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Ukraine",
 		"lat": "49",
 		"lon": "32",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 27.87,
 			"nationmaster_localPurchasingPower": 30.36,
@@ -3187,6 +3399,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "United Arab Emirates",
 		"lat": "24",
 		"lon": "54",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 104.59,
 			"nationmaster_localPurchasingPower": 105.13,
@@ -3201,6 +3414,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "United Kingdom",
 		"lat": "54",
 		"lon": "-2",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 98.12,
 			"nationmaster_localPurchasingPower": 90.99,
@@ -3215,6 +3429,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "United States",
 		"lat": "38",
 		"lon": "-97",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 126.09,
 			"nationmaster_localPurchasingPower": 128.73,
@@ -3229,6 +3444,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Uruguay",
 		"lat": "-33",
 		"lon": "-56",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 44.87,
 			"nationmaster_localPurchasingPower": 39.22,
@@ -3243,6 +3459,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Uzbekistan",
 		"lat": "41",
 		"lon": "64",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 23.16,
 			"nationmaster_localPurchasingPower": 24.39,
@@ -3257,6 +3474,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Vanuatu",
 		"lat": "-16",
 		"lon": "167",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -3271,6 +3489,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Vatican City State (Holy See)",
 		"lat": "41.54",
 		"lon": "12.27",
+		"continent": "Europe",
 		"metrics": {
 			"numbeo_localPurchasingPower": 146.51, //null,
 			"nationmaster_localPurchasingPower": 134.41, //null,
@@ -3285,6 +3504,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Venezuela",
 		"lat": "8",
 		"lon": "-66",
+		"continent": "South America",
 		"metrics": {
 			"numbeo_localPurchasingPower": 11.9,
 			"nationmaster_localPurchasingPower": 16.29,
@@ -3299,6 +3519,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Viet Nam",
 		"lat": "16",
 		"lon": "106",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": 21.32,
 			"nationmaster_localPurchasingPower": 24.95,
@@ -3313,6 +3534,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Virgin Islands (British)",
 		"lat": "18.2",
 		"lon": "-64.5",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -3327,6 +3549,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Virgin Islands (U.S.)",
 		"lat": "18.2",
 		"lon": "-64.5",
+		"continent": "North America",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -3341,6 +3564,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Wallis and Futuna Islands",
 		"lat": "-13.18",
 		"lon": "-176.12",
+		"continent": "Oceania",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -3355,6 +3579,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Western Sahara",
 		"lat": "24.3",
 		"lon": "-13",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -3369,6 +3594,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Yemen",
 		"lat": "15",
 		"lon": "48",
+		"continent": "Asia",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": 18.47,
@@ -3383,6 +3609,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Zambia",
 		"lat": "-15",
 		"lon": "30",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": null,
 			"nationmaster_localPurchasingPower": null,
@@ -3397,6 +3624,7 @@ PURCHASEABLE_nationalMetrics.data =
 		"name": "Zimbabwe",
 		"lat": "-20",
 		"lon": "30",
+		"continent": "Africa",
 		"metrics": {
 			"numbeo_localPurchasingPower": 33.4,
 			"nationmaster_localPurchasingPower": 24.87,

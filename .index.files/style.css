@@ -1,19 +1,48 @@
+#options {
+	position: absolute;
+	display: inline-block;
+	right: 0px;
+	z-index: 10;
+}
+#options.dettached {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	background-color: rgba(248,248,248,0.8);
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
 #mainFrame {
-	display: table;
+	position: relative;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0;
+	}
+	#mainFrame div {
+		padding: 0;
 	}
 	.nation {
-		display: table-row;
-		white-space: pre;
+		display: block;
+		position: absolute;
+		transition: 0.5s;
+		width: 100%;
+		line-height: 1em;
+		font-size: 12px;
 		}
 		.name {
-			display: table-cell;
+			vertical-align: top;
+			white-space: pre;
+			display: inline-block;
 			letter-spacing: -0.01em;
-			line-height: 1em;
-			font-size: 12px;
+			width: 270px;
+			overflow: hidden;
+			text-overflow: ellipsis;
 		}
 		.metrics {
-			width: 50%;
-			display: table-cell;
+			vertical-align: top;
+			width: calc(50% - 137px);
+			display: inline-block;
 			position: relative;
 		}
 		.metrics>div {
@@ -22,37 +51,41 @@
 		.metrics.input>div {
 			height: 1px;
 			right: 0;
-			opacity: 0.3;
-			background-color: #C05E5E;
+			_opacity: 0.3;
+			background-color: #a577b9; /*#C05E5E;*/
+		}
+		.metrics.output {
+			background-image: url('bg.metrics.output.png');
+			background-size: 100%;
+			height: 1em;
 		}
 		.metrics.output>div {
 			left: 0;
 		}
 		.metrics ._normalized_nationmaster_localPurchasingPower {
-			top: 1px;
+			top: 2px;
 		}
 		.metrics ._normalized_numbeo_localPurchasingPower {
-			top: 3px;
+			top: 4px;
 		}
 		.metrics ._normalized_wikipedia_economicFreedom {
-			top: 5px;
+			top: 6px;
 		}
 		.metrics ._normalized_wikipedia_humanDevelopmentIndex {
-			top: 7px;
+			top: 8px;
 		}
 		.metrics ._aggregated_exponential {
-			height: 8px;
+			height: 10px;
 			top: 1px;
-			background-color: #64BA64;
-}
-
-button.highlight, 
-button.sort {
-	vertical-align: middle;
+			background-color: #feca5e;
+			border-radius: 0 5px 5px 0;
 	}
-	button.highlight.active, 
-	button.sort.active {
-		font-weight: bold;
+	#mainFrame .gridLine {
+		width: 1px;
+		background: gray;
+		position: absolute;
+		top: 0px;
+		height: 100%;
 }
 
 body._normalized_nationmaster_localPurchasingPower .metrics ._normalized_nationmaster_localPurchasingPower,
@@ -60,7 +93,8 @@ body._normalized_numbeo_localPurchasingPower .metrics ._normalized_numbeo_localP
 body._normalized_wikipedia_economicFreedom .metrics ._normalized_wikipedia_economicFreedom,
 body._normalized_wikipedia_humanDevelopmentIndex .metrics ._normalized_wikipedia_humanDevelopmentIndex {
 	height: 2px;
-	opacity: 1;
+	opacity: 0.8;
+	background-color: black;
 }
 
 textarea#csv {
@@ -76,3 +110,18 @@ textarea#csv {
 .nation:hover {
 	background-color: #FFFF77;
 }
+
+.name {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left: 15px !important;
+	box-sizing: border-box;
+}
+.nation[data-continent="Africa"] .name {			background-image: url('continent Africa.png');			}
+.nation[data-continent="Antarctica"] .name {		background-image: url('continent Antarctica.png');		}
+.nation[data-continent="Asia"] .name {				background-image: url('continent Asia.png');			}
+.nation[data-continent="Europe"] .name {			background-image: url('continent Europe.png');			}
+.nation[data-continent="North America"] .name {		background-image: url('continent North America.png');	}
+.nation[data-continent="Oceania"] .name {			background-image: url('continent Oceania.png');			}
+.nation[data-continent="South America"] .name {		background-image: url('continent South America.png');	}

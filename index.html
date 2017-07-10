@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		
-		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
-		<meta name="generator" content="Peter Fargas">
-		<meta name="author" content="Peter Fargas">
-		<meta name="robots" content="index">
-		<meta name="keywords" content="grey literature, ">
-		<meta name="description" content="">
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" />
+		<meta name="generator" content="Peter Fargas" />
+		<meta name="author" content="Peter Fargas" />
+		<meta name="robots" content="index" />
+		<meta name="keywords" content="grey literature, geo, geography, economy, statistics, per-country, country dependant pricing" />
+		<meta name="description" content="People living in different countries have very different chances, economical power and living standards differ. Statistical results for adjusting the prices accordingly." />
 		<meta name="referrer" content="always">
 		
-		<meta property="og:title" content="Whitepaper: Geo-Equalization of Prices">
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://informatik-handwerk.de/greyLiterature/whitepaper/geoEqualizationOfPrices/index.html">
+		<meta property="og:title" content="Whitepaper: Geo-Equalization of Prices" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://informatik-handwerk.de/greyLiterature/whitepaper/geoEqualizationOfPrices/index.html" />
 		<!-- meta property="og:image" content="https://informatik-handwerk.de/img/embedView.jpg" />
 		<meta property="og:image:secure_url" content="https://informatik-handwerk.de/img/embedView.jpg" / -->
 		
@@ -46,13 +47,13 @@
 			Independent Research &amp; Prototypisation
 			<br>
 			https://informatik-handwerk.de
-			<br>
+			<br />
 			Leipzig, Germany
 		</a></div>
 		<div class="flowRight writeItalic">
 			Release date: March 2017
-			<br>
-			Last update: 
+			<br />
+			Last update: May 2017
 			<div class="verticalSpace"></div>
 			<span class="notAuthoritative"><a href="https://informatik-handwerk.de/greyLiterature/whitepaper/geoEqualizationOfPrices/index.html">Link to authoritative version</a></span>
 		</div>
@@ -110,7 +111,7 @@
 		<p>
 		Here are the data I extracted in 2015 from various sources and aggregated into one multiplication factor to normalize prices. I estimated where data were missing &#8211; such spots are kept visible in raw data sources.
 		</p><p>
-		<span class="isAuthoritative"><a href="http://localhost:8/greyLiterature/whitepaper/geoEqualizationOfPrices/geoEqualizationOfPrices.zip">Download: raw data(json-like) &amp; source-code(js/php)</a></span>
+		<span class="isAuthoritative"><a href="geoEqualizationOfPrices.zip">Download: raw data(json-like) &amp; source-code(js/php)</a></span>
 		<br />
 		CSV export: is available for copy-paste at the bottom.
 		</p>
@@ -154,7 +155,7 @@
 				<select class="sort">
 					<option value="_lexicographical_name">alphabetically</option>
 					<option value="_lexicographical_continent">by continent</option>
-					<option value="_aggregated_exponential">&gt; unified geo-eq index &lt;</option>
+					<option value="_aggregated_exponential">&raquo; unified geo-eq index &laquo;</option>
 					<option value="_normalized_nationmaster_localPurchasingPower">local purchasing power (nationmaster)</option>
 					<option value="_normalized_numbeo_localPurchasingPower">local purchasing power (numbeo)</option>
 					<option value="_normalized_wikipedia_economicFreedom">economic freedom (wikipedia)</option>
@@ -184,6 +185,7 @@
 			
 			if (location.host == 'informatik-handwerk.de'
 			|| location.host == 'informatikhandwerk.de' 
+			
 			) {
 				bodyClass += " authoritative";
 			}

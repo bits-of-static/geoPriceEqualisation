@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#" lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" />
+		<meta name="generator" content="Peter Fargas" />
+		<meta name="author" content="Peter Fargas" />
+		<meta name="robots" content="index" />
+		<meta name="keywords" content="grey literature, geo, geography, economy, statistics, per-country, country dependant pricing" />
+		<meta name="description" content="Menschen aus verschiedenen Ländern haben sehr verschiedene Chancen, Kaufkraft und Lebenstandars. Hier sind aufgearbeitete Statistiken um die Preise dementsprechend einzustellen." />
+		<meta name="referrer" content="always">
+		
+		<meta property="og:title" content="Whitepaper: Geo-Equalisation von Preisen" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://informatik-handwerk.de/greyLiterature/whitepaper/geoEqualizationOfPrices/index.html" />
+		<!-- meta property="og:image" content="https://informatik-handwerk.de/img/embedView.jpg" />
+		<meta property="og:image:secure_url" content="https://informatik-handwerk.de/img/embedView.jpg" / -->
+		
+		<!-- link rel="home" type="application/atom+xml" href="/digest/atom" title="Rss feed" />
+		<link rel="home" type="application/rss+xml" href="/digest/rss" title="Atom feed" / -->
+		
+		<title>Whitepaper: Geo-Equalization of Prices</title>
+		
+		<link rel="stylesheet" type="text/css" href=".index.files/micro.css">
+		<link rel="stylesheet" type="text/css" href=".index.files/greyLiterature.css">
+		
+			<link rel="stylesheet" type="text/css" href=".index.files/style.css">
+		
+		<style type="text/css">
+			
+		</style>
+		
+			<script type="text/javascript" src="rawData.js"></script>
+			<script type="text/javascript" src="rawDataNormalize.js"></script>
+			<script type="text/javascript" src=".index.files/jquery-1.11.1.min.js"></script>
+			<script type="text/javascript" src=".index.files/presentation.js"></script>
+		
+	</head>
+	<body>
+		<!--
+		<div style="page-break-after:always;"></div>
+		-->
+		
+		<div id="creaAuthor" class="flowLeft writeItalic"><a href="https://informatik-handwerk.de/en/">
+			Peter Fargas
+			<br />
+			Independent Research &amp; Prototypisation
+			<br />
+			https://informatik-handwerk.de
+			<br />
+			Leipzig, Germany
+		</a></div>
+		<div class="flowRight writeItalic">
+			Veröffentlichungsdatum: March 2017
+			<br />
+			Letzte Veränderung: June 2017
+			<div class="verticalSpace"></div>
+			<span class="notAuthoritative"><a href="https://informatik-handwerk.de/greyLiterature/whitepaper/geoEqualizationOfPrices/de.html">Link to authoritative version</a></span>
+		</div>
+		<div class="flowClear"></div>
+		
+		<h1>Geo-Equalisation von Preisen</h1>
+		
+		<div id="toc">
+			<div class="tocHeadline">&#9776; Inhalt</div>
+		</div>
+		
+		<div id="content">
+			<div>
+	<div>
+		<p class="writeItalic">
+			Menschen aus verschiedenen Ländern haben sehr verschiedene Chancen, Kaufkraft und Lebensstandards. Der Unterschiede meiner Kunden wegen, ich löse <span class="alignPre">Geo-Ip</span> auf und passe Preise dementsprechend an.
+		</p>
+		<p>
+			Ich kombiniere statistische Daten aus 2015:
+			
+			</p><ul><li>
+				<span class="writeBold">lokale Kaufkraft</span>:
+				<a href="https://www.numbeo.com/cost-of-living/rankings_by_country.jsp">Numbeo</a>, 
+				<a href="http://www.nationmaster.com/country-info/stats/Cost-of-living/Local-purchasing-power">Nationmaster</a>
+			</li><li>
+				<span class="writeBold">ökonomische Freiheit</span>:
+				<a href="https://en.wikipedia.org/wiki/List_of_countries_by_economic_freedom">Wikipedia</a>
+			</li><li>
+				<span class="writeBold">Index der menschlichen Entwicklung</span>:
+				<a href="https://en.wikipedia.org/wiki/List_of_countries_by_inequality-adjusted_HDI">Wikipedia</a>
+			</li><li>
+				Auflösen von <span class="alignPre">Geo-Ip</span> wird gestellt von <a href="https://www.maxmind.com/">MaxMind</a>.
+			</li></ul>
+		<p></p>
+		<p class="writeItalic"> 
+			Auf diese Weise, Leute um die Welt herum bekommen eine Vergleichbare Chance die Werkzeuge und Informationen zu nutzen, die sie möchten.
+		</p>
+	</div>
+</div>
+
+<div>
+	<h2>Methodologie / Api &amp; Download</h2>
+	<div>
+		<p>
+		<a href="https://github.com/bits-of-static/geoPriceEqualisation">https://github.com/bits-of-static/geoPriceEqualisation</a>
+		</p>
+	</div>
+</div>
+
+<div>
+	<h2>Visualisierung</h2>
+	<div>
+		<div id="options">
+			<p>
+				<span class="writeBold">Highlight: </span>
+				<br />
+				<input type="checkbox" class="highlight _normalized_nationmaster_localPurchasingPower">lokale Kaufkraft (nationmaster)</button>
+				<br />
+				<input type="checkbox" class="highlight _normalized_numbeo_localPurchasingPower">lokale Kaufkraft (numbeo)</button>
+				<br />
+				<input type="checkbox" class="highlight _normalized_wikipedia_economicFreedom">ökonomische Freiheit (wikipedia)</button>
+				<br />
+				<input type="checkbox" class="highlight _normalized_wikipedia_humanDevelopmentIndex">Index der menschlichen Entwicklung (wikipedia)</button>
+			</p>
+			<p>
+				<span class="writeBold">Sortieren: </span>
+				<select class="sort">
+					<option value="_lexicographical_name">alphabetisch</option>
+					<option value="_lexicographical_continent">nach Kontinent</option>
+					<option value="_aggregated_exponential">&raquo; unifizierter geo-eq Index &laquo;</option>
+					<option value="_normalized_nationmaster_localPurchasingPower">lokale Kaufkraft (nationmaster)</option>
+					<option value="_normalized_numbeo_localPurchasingPower">lokale Kaufkraft (numbeo)</option>
+					<option value="_normalized_wikipedia_economicFreedom">ökonomische Kaufkraft (wikipedia)</option>
+					<option value="_normalized_wikipedia_humanDevelopmentIndex">Index der menschlichen Entwicklung (wikipedia)</option>
+				</select>
+			</p>
+		</div>
+		
+		<div id="mainFrame"></div>
+		
+	</div>
+</div>
+
+		</div>
+		
+		<script>
+			var bodyClass = document.body.className.replace('authoritative', '').trim();
+			
+			if (location.host == 'informatik-handwerk.de'
+			|| location.host == 'informatikhandwerk.de' 
+			
+			) {
+				bodyClass += " authoritative";
+			}
+			
+			document.body.className = bodyClass;
+		</script>
+		
+		<script>jQuery(document).ready(function(){
+			var toc = jQuery('#toc');
+			
+			var tocItems = jQuery('.toc');
+			if (tocItems.length) {
+				tocItems
+					.detach()
+					.appendTo(toc)
+					;
+				toc.show();
+				
+			} else {
+				toc.remove();
+			}
+		});</script>
+		
+		
+	
+</body></html>

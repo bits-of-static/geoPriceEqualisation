@@ -61,10 +61,12 @@ span.vAlignCalibrator {
 .size29 { font-size: 2.9em; }
 .size30 { font-size: 3.0em; }
 
+.writeNormal { font-style: normal; font-weight: normal; font-variant: normal; }
 .writeItalic { font-style: italic; }
 .writeBold { font-weight: bold; }
 .writeCaps { font-variant: small-caps; }
-.underline { text-decoration: underline; }
+.underline { text-decoration: underline !important; }
+.noUnderline { text-decoration: none !important; }
 
 .fontSans { font-family: "arial", sans-serif; }
 .fontFine { font-family: "palatino linotype"; }
@@ -83,6 +85,7 @@ ol {
 .formTable {
 	display: table;
 	box-sizing: border-box;
+	border-collapse: collapse;
 	}
 	.formTableRow {
 		display: table-row;
@@ -92,9 +95,70 @@ ol {
 		display: table-cell;
 		vertical-align: middle;
 		box-sizing: border-box;
+	}
+	.formTableCell_shrink {
+		display: table-cell;
+		vertical-align: middle;
+		box-sizing: border-box;
+		width: 1%;
+		white-space: nowrap;
+	}
+	.formTableCell_expand {
+		display: table-cell;
+		vertical-align: middle;
+		box-sizing: border-box;
+		width: 99%;
 }
 
 .fullSize {
 	width: 100%;
 	height: 100%;
+}
+.fullWidth {
+	width: 100%;
+}
+
+.fullScreenCover {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.posRelative { position: relative; }
+.posAbsolute { position: absolute; }
+.posFixed { position: fixed; }
+
+ul.glyphBold>li,
+ol.glyphBold>li {
+	/*1*/list-style-type: disc;
+}
+ol.glyphFine>li,
+ul.glyphFine>li {
+	/*1*/list-style-type: circle;
+}
+ol.glyphOff>li,
+ul.glyphOff>li {
+	/*1*/list-style-type: none;
+}
+ol.inlineGlyph,
+ul.inlineGlyph {
+	/*1*/_padding: 0;
+	/*1*/list-style-position: inside;
+	}
+	/*ul.inlineGlyph>li {
+		/*1^/padding-left: 1em;
+}*/
+
+ul.conceptualOnly,
+ol.conceptualOnly {
+	margin: 0;
+	padding: 0;
+}
+ul.conceptualOnly li,
+ol.conceptualOnly li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }

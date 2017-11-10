@@ -6,10 +6,10 @@ echo PHP_EOL;
 echo PHP_EOL;
 
 $instances = [
-	new \ihde\GeoIpEconomy('ch'),
-	new \ihde\GeoIpEconomy('us'),
-	new \ihde\GeoIpEconomy('sk'),
-	new \ihde\GeoIpEconomy('cd'),
+	new \ihde\GeoIpEconomy('CH'),
+	new \ihde\GeoIpEconomy('US'),
+	new \ihde\GeoIpEconomy('SK'),
+	new \ihde\GeoIpEconomy('CD'),
 	new \ihde\GeoIpEconomy('-'),
 	new \ihde\GeoIpEconomy('ewrwretwert'),
 ];

@@ -14,10 +14,18 @@
 		new ihde.GeoIpEconomy('ewrwretwert')
 	];
 	
+	console.info('Adapting value 5:');
 	for (var i=0; i<instances.length; i++) {
 		var each = instances[i];
 		console.log(each);
-		console.log(each.adapt(5));
+		console.log(each.name+ ': '+ each.adapt(5));
 	}
+	
+	console.info('Testing toString:');
+	console.log('0 -> '+ instances[0].toString(0));
+	console.log('1.1 -> '+ instances[0].toString(1.1));
+	console.log('2.22 -> '+ instances[0].toString(2.22));
+	console.log('3.333 -> '+ instances[0].toString(3.333));
+	
 </script>
 </html>

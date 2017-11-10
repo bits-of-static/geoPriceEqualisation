@@ -14,6 +14,7 @@ $instances = [
 	new \ihde\GeoIpEconomy('ewrwretwert'),
 ];
 
+echo 'Adapting value 5:';
 foreach ($instances as $each) {
 	var_export($each);
 	echo PHP_EOL;
@@ -21,3 +22,15 @@ foreach ($instances as $each) {
 	echo PHP_EOL;
 	echo PHP_EOL;
 }
+
+echo 'Testing toString:';
+echo PHP_EOL;
+echo '0 -> '. $instances[0]->toString(0);
+echo PHP_EOL;
+echo '1.1 -> '. $instances[0]->toString(1.1);
+echo PHP_EOL;
+echo '2.22 -> '. $instances[0]->toString(2.22);
+echo PHP_EOL;
+echo '3.333 -> '. $instances[0]->toString(3.333);
+echo PHP_EOL;
+

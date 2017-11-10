@@ -29,6 +29,20 @@ ihde.GeoIpEconomy._static_initializer = function() {
 }; //routine
 
 /*******************************************************************************************/
+ihde.GeoIpEconomy.prototype.toString = function(price) {
+	var priceAsString = ""+ price;
+	
+	var commaPos = priceAsString.indexOf('.');
+	if (commaPos >= 0) {
+		priceAsString = (priceAsString+'0').substring(0, commaPos+3);
+	} else {
+		priceAsString += '.00';
+	}
+	
+	return priceAsString;
+}; //routine
+
+/*******************************************************************************************/
 ihde.GeoIpEconomy.prototype.adapt = function(price) {
 	var priceGeoAdjusted = Math.floor(price* this.factor* 100)/ 100;
 	return priceGeoAdjusted;

@@ -36,6 +36,20 @@ class GeoIpEconomy {
 	} //routine
 	
 	/*---------------------------------------------------------------------*/
+	public static function toString($price) {
+		$priceAsString = "". $price;
+		
+		$commaPos = \strpos($priceAsString, '.');
+		if ($commaPos !== false) {
+			$priceAsString = \substr($priceAsString.'0', 0, $commaPos+3);
+		} else {
+			$priceAsString .= '.00';
+		}
+		
+		return $priceAsString;
+	} //routine
+	
+	/*---------------------------------------------------------------------*/
 	public function adapt($price): float {
 		$priceGeoAdjusted = \floor($price* $this->factor* 100)/ 100;
 		return $priceGeoAdjusted;
